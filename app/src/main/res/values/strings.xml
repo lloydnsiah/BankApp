@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bank App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="description">this month our bank is providing its customers with amazing discounts </string>
+    <string name="title">Amazing Offers from our Bank this December</string>
+</resources>
