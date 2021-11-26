@@ -1,5 +1,6 @@
 package com.example.bankapp.adapters;
 
+import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,10 +17,10 @@ import com.example.bankapp.objects.InfoObject;
 import java.util.ArrayList;
 
 public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
-    private Context context;
+    private Activity context;
     private ArrayList<InfoObject> arrayList;
 
-    public InfoAdapter(Context context, ArrayList<InfoObject> arrayList) {
+    public InfoAdapter(Activity context, ArrayList<InfoObject> arrayList) {
         this.context = context;
         this.arrayList = arrayList;
     }
@@ -35,7 +36,7 @@ public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.title.setText(arrayList.get(position).getTilte());
         holder.description.setText(arrayList.get(position).getDescription());
-        holder.imageView.setImageDrawable(arrayList.get(position).getImage());
+       // holder.imageView.setImageDrawable(arrayList.get(position).getImage());
     }
 
     @Override
@@ -52,7 +53,7 @@ public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
 
             title = itemView.findViewById(R.id.offers_title);
             description = itemView.findViewById(R.id.offers_description);
-            imageView = itemView.findViewById(R.id.offers_image);
+
         }
     }
 }
