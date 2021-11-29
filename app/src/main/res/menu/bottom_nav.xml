@@ -13,8 +13,8 @@
         android:title="" />
 
     <item android:id="@+id/menuNotification"
-        android:title="Notification"
-        android:icon="@drawable/ic_notification"/>
+        android:title="More"
+        android:icon="@drawable/ic_more"/>
 
     <item android:id="@+id/menuProfile"
         android:title="Profile"
