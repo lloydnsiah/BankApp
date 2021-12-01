@@ -11,10 +11,13 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/drawable/history_bg.xml" value="0.3536458333333333" />
         <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/drawable/profile_bg.xml" value="0.3536458333333333" />
         <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/activity_home_options.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/activity_transfer_fragment.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/activity_welcome_screen.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/balance_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/fragment_commence.xml" value="0.3151041666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/fragment_debit.xml" value="0.3151041666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/fragment_history.xml" value="0.27657735522904064" />
         <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/fragment_home.xml" value="0.32160804020100503" />
         <entry key="..\:/Users/user/AndroidStudioProjects/BankApp/app/src/main/res/layout/fragment_notification.xml" value="0.3333333333333333" />

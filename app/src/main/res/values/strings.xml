@@ -5,4 +5,6 @@
 
     <string name="description">this month our bank is providing its customers with amazing discounts </string>
     <string name="title">Amazing Offers from our Bank this December</string>
+
+    <string name="login_text">Welome to bank of Africa.\n Please Enter Your Username and Password to Login in.</string>
 </resources>
