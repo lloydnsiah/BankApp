@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.example.bankapp.fragments.HistoryFragment;
 import com.example.bankapp.fragments.HomeFragment;
@@ -14,6 +15,7 @@ import com.example.bankapp.fragments.NotificationFragment;
 import com.example.bankapp.fragments.ProfileFragment;
 import com.example.bankapp.opions_fragment.CommenceFragment;
 import com.example.bankapp.opions_fragment.DebitFragment;
+import com.example.bankapp.opions_fragment.FlazzFragment;
 import com.example.bankapp.opions_fragment.TransferFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -32,6 +34,8 @@ public class HomeOptions extends AppCompatActivity {
         nav_bar = findViewById(R.id.options_navbar);
         context = getApplicationContext();
 
+        nav_bar.setSelectedItemId(R.id.options_transfer);
+
         getSupportFragmentManager().beginTransaction().replace(R.id.options_fragment, new TransferFragment()).commit();
 
         nav_bar.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
@@ -49,11 +53,11 @@ public class HomeOptions extends AppCompatActivity {
                         fragment = new CommenceFragment();
                         break;
                     case R.id.options_flazz:
-                        fragment = new ProfileFragment();
+                        fragment = new FlazzFragment();
                         break;
                 }
 
-                getSupportFragmentManager().beginTransaction().replace(R.id.main_fragment,fragment).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.options_fragment,fragment).commit();
 
                 return true;
             }
